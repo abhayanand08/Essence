@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Cantarell:regular,italic,700,700italic);
+.main-navbar{
+    width: 100%;
+    padding: 1.5rem;
+    height: max-content;
+}
+nav{
+    padding: 1.5rem;
+    background-color: #5e1916;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.leftside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+.leftside a{
+    text-decoration: none;
+    color: #fff;
+}
+.leftside h2{
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Cantarell', sans-serif;
+    line-height: 2rem;
+}
+.rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+.rightside ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.rightside a{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1.5px solid transparent;
+}
+.rightside a:hover{
+    color: #d2d3d4;
+    border-bottom: 1.5px solid #fff;
+}
+.rightside a li{
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
